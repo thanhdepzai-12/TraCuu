@@ -1,0 +1,107 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.green {
+    color: rgb(15, 160, 15);
+    font-size: 20px;
+}
+.tracuuheader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+     background-color: #3d7ac1;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+ width: 30px;
+ height: 30px;
+
+ background: url('./iamge/Emblem_of_Vietnam.svg.png') center/cover;
+}
+.title{
+    width: 85%;
+    background-color: #3d7ac1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 0.6rem;
+    color: #ffed46;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 0.6rem;
+    color: #ffed46;
+}
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: #3d7ac1;
+    color: #ffed46;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.body-search {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: top;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+
+}
+label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.error {
+    color: rgb(230, 39, 39);
+
+}
+#result {
+padding-left: 30px;
+}
+.bold {
+    font-weight: 600;
+}
